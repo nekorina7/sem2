@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.incentives-main {width:100%}
+		 
+.left{height:560px;	margin-top:30px; margin-bottom: 30px; transition: 0.5s}
+.left:hover p {color:#4a1312; transition: 0.5s}
+.left:hover h2,h4,h5,h6 {color:#4a1312; transition: 0.5s}
+.left a left {margin-left: auto; margin-right: auto; transition: 0.5s}
+		   
+
+.left h2{text-align:center;
+         color:#FFF;
+		 font-family: 'Museo';
+		 margin-top:50px}
+		 
+.left h4{text-align:center;
+         color:#FFF;
+		 font-family: 'Museo'}
+		 
+.left h5{text-align:center;
+         color:#FFF;
+		 font-family: 'Museo';
+		 margin-top:2px}
+		 
+.left h6{text-align:center;
+         color:#FFF;
+		 font-family: 'Museo';
+		 margin-top:30px;
+		 font-style:italic}
+		 
+.left p{font-family: 'Roboto';
+        text-align:center;
+		padding-top:2px;
+		color:#FFF;
+		}
+		
+.textcenter{height:283px;
+            overflow: hidden;
+			margin-left: auto;
+			margin-right: auto}
+		 
+.trai {background:#c68281; border-radius:50px; width: 300px; height: 100%; padding-top: 0.5px; padding-left: 15px; padding-right: 15px; margin: auto}
+.giua {background:#c68281; border-radius:50px; width: 300px; height: 100%; padding-top: 0.5px; padding-left: 15px; padding-right: 15px; margin: auto}
+.phai {background:#c68281; border-radius:50px; width: 300px; height: 100%; padding-top: 0.5px; padding-left: 15px; padding-right: 15px; margin: auto}
+.left:hover .trai {transform: scale(1.05); background: #e3b8b7; transition: 0.5s}
+.left:hover .giua {transform: scale(1.05); background: #e3b8b7; transition: 0.5s}
+.left:hover .phai {transform: scale(1.05); background: #e3b8b7; transition: 0.5s}
+.left:hover .textcenter {overflow: auto}

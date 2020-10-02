@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about-us-banner {background: url(../images/about-us/banner.jpg) no-repeat center; background-size: cover; height: 250px}
+.content h1 {text-align: center; font-family: 'Museo'; color: #873E3E}
+.content .about-us-text-01 {text-align: left; font-size: 13pt; color: rgba(0,0,0,.6)}
+
+.about-us-left {position: relative; height: 450px; color: rgba(0,0,0,.8)}
+.about-us-right {position: relative; height: 450px; color: rgba(0,0,0,.8)}
+
+.about-us-left-content {position: absolute; right: 10px}
+.about-us-right-content {position: absolute; left: 10px}
+
+.about-us-img01 {height: 200px; overflow: hidden}
+.about-us-img02 {height: 200px; overflow: hidden}
+
+.about-us-text02 {max-width: 448px; overflow: hidden; text-align: right; float: right; padding-top: 10px}
+.about-us-text03 {max-width: 440px; overflow: hidden; text-align: left; float: left; padding-top: 10px}
+
+@media (max-width: 992px) {
+.about-us-left-content {position: relative; right: 0}
+.about-us-right-content {position: relative; left: 0}
+.about-us-left {height: 400px}
+.about-us-right {height: 400px}
+.about-us-img01 img {margin: auto}
+.about-us-img02 img {margin: auto}
+.about-us-text01 p {margin: auto}
+.about-us-text02 p {margin: auto}
+.about-us-text02 {text-align: left; float: none; max-width: 100%}
+.about-us-text03 {text-align: left; float: none; max-width: 100%}
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.trend01 {transition: 0.5s; padding-bottom: 15px}
+img.trend-img01 {transition: 1s; filter: brightness(0.9)}
+.trend01:hover {background: rgba(255,228,228,0.25); box-shadow: 2px 2px 5px 2px #FFDBDB}
+.trend01:hover img.trend-img01 {content: url('../images/trendandnew/decor-hover.jpg'); transform: scale(1.025) rotateY(180deg); filter: brightness(1.1)}
+
+.trend02 {transition: 0.5s; padding-bottom: 15px}
+img.trend-img02 {transition: 1s; filter: brightness(0.9)}
+.trend02:hover {background: rgba(255,228,228,0.25); box-shadow: 2px 2px 5px 2px #FFDBDB}
+.trend02:hover img.trend-img02 {content: url('../images/trendandnew/jeju-hover.jpg'); transform: scale(1.025) rotateY(180deg); filter: brightness(1.1)}
+
+.trend03 {transition: 0.5s; padding-bottom: 15px}
+img.trend-img03 {transition: 1s; filter: brightness(0.9)}
+.trend03:hover {background: rgba(255,228,228,0.25); box-shadow: 2px 2px 5px 2px #FFDBDB}
+.trend03:hover img.trend-img03 {content: url('../images/trendandnew/songsong-hover.jpg'); transform: scale(1.025) rotateY(180deg); filter: brightness(1.1)}
+
+.trend04 {transition: 0.5s; padding-bottom: 15px}
+img.trend-img04 {transition: 1s; filter: brightness(0.9)}
+.trend04:hover {background: rgba(255,228,228,0.25); box-shadow: 2px 2px 5px 2px #FFDBDB}
+.trend04:hover img.trend-img04 {content: url('../images/trendandnew/04-hover.jpg'); transform: scale(1.025) rotateY(180deg); filter: brightness(1.1)}
+
+.search-container {float: right}

@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+.album-form {height: auto}
+.single-image {text-align: center; margin: 5px 0; -webkit-transform: scale(1); transition: 0.25s}
+.single-image:hover {-webkit-transform: scale(1.01)}
+.single-image:hover p {color: #873E3E; font-size: 15.5pt; font-weight: bold; box-shadow: 0px 5px 10px #FFA7A8; transition: 0.25s}
+.single-image a img {margin-left: auto; margin-right: auto}
+.single-image-img {-webkit-filter: blur(0.8px); -webkit-filter: brightness(0.9); transition: 1s}
+.single-image:hover .single-image-img {-webkit-filter: blur(0); -webkit-filter: brightness(1.1)}
+.single-image p {background: #FFC4C5; height: 50px; padding-top: 10px; font-family: 'Museo'; font-size: 15pt}
+.album-01 h2 {font-family: 'Humble'; text-align: center}
+.album-img img {transform: scale(0.92); transition: 0.5s; margin-left: auto; margin-right: auto}
+.album-img:hover img {transform: scale(0.95); cursor: zoom-in}
+
+.photography-section .container-fluid {padding-left: 5px; padding-right: 15px}
+.photography-section .col-md-7 {padding-right: 0}
+.photography-section .col-md-5 {padding-left: 0}
+.photography-right .col-md-6 {padding-right: 5px}
+.photography-right .col-md-12 {padding-right: 5px}
+.photography-section .col-md-7 .container-fluid {padding-right: 5px}
+.photography-right .container-fluid {padding-left: 5px; padding-right: 5px}
+.photography-left .container-fluid {padding-left: 5px; padding-right: 5px}
+.photography-left .col-md-12 {padding-left: 15px; padding-right: 5px}
+
+.anh-nho1 {padding-right: 5px !important; padding-bottom: 10px !important}
+.anh-nho2 {padding-left: 5px !important; padding-bottom: 10px !important}
+.anh-nho3 {padding-left: 15px !important; padding-bottom: 10px !important}
+.anh-nho4 {padding-right: 5px !important; padding-bottom: 10px !important}
+
+.photography-01 {background: url(../images/album/Thumbs/photography/dong1.jpg) no-repeat center; background-size: cover; height: 558px}
+.photography-02 {background: url(../images/album/Thumbs/photography/dong1-3.jpg) no-repeat center; background-size: cover; height: 180px}
+.photography-03 {background: url(../images/album/Thumbs/photography/dong1-4.jpg) no-repeat center; background-size: cover; height: 180px}
+.photography-04 {background: url(../images/album/Thumbs/photography/dong1-2.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.photography-05 {background: url(../images/album/Thumbs/photography/dong2-1.jpg) no-repeat center; background-size: cover; height: 180px}
+.photography-06 {background: url(../images/album/Thumbs/photography/dong2-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.photography-07 {background: url(../images/album/Thumbs/photography/dong2-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.photography-08 {background: url(../images/album/Thumbs/photography/dong2-4.jpg) no-repeat center; background-size: cover; height: 558px}
+
+.photography-09 {background: url(../images/album/Thumbs/photography/dong3-2.jpg) no-repeat center; background-size: cover; height: 368px}
+.photography-10 {background: url(../images/album/Thumbs/photography/dong3-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.photography-11 {background: url(../images/album/Thumbs/photography/dong3-4.jpg) no-repeat center; background-size: cover; height: 368px}
+.photography-12 {background: url(../images/album/Thumbs/photography/dong3.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.wedding-dress-01 {background: url(../images/album/Thumbs/wedding-dress/dong1.jpg) no-repeat center; background-size: cover; height: 558px}
+.wedding-dress-02 {background: url(../images/album/Thumbs/wedding-dress/dong1-3.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-dress-03 {background: url(../images/album/Thumbs/wedding-dress/dong1-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-dress-04 {background: url(../images/album/Thumbs/wedding-dress/dong1-4.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.wedding-dress-05 {background: url(../images/album/Thumbs/wedding-dress/dong2.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-dress-06 {background: url(../images/album/Thumbs/wedding-dress/dong2-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-dress-07 {background: url(../images/album/Thumbs/wedding-dress/dong2-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-dress-08 {background: url(../images/album/Thumbs/wedding-dress/dong2-4.jpg) no-repeat center; background-size: cover; height: 558px}
+
+.wedding-dress-09 {background: url(../images/album/Thumbs/wedding-dress/dong3-2.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-dress-10 {background: url(../images/album/Thumbs/wedding-dress/dong3-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-dress-11 {background: url(../images/album/Thumbs/wedding-dress/dong3-4.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-dress-12 {background: url(../images/album/Thumbs/wedding-dress/dong3.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.wedding-package-01 {background: url(../images/album/Thumbs/wedding-package/dong1-4.jpg) no-repeat center; background-size: cover; height: 558px}
+.wedding-package-02 {background: url(../images/album/Thumbs/wedding-package/dong1.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-package-03 {background: url(../images/album/Thumbs/wedding-package/dong1-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-package-04 {background: url(../images/album/Thumbs/wedding-package/dong1-3.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.wedding-package-05 {background: url(../images/album/Thumbs/wedding-package/dong2-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-package-06 {background: url(../images/album/Thumbs/wedding-package/dong2-3.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-package-07 {background: url(../images/album/Thumbs/wedding-package/dong2-4.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-package-08 {background: url(../images/album/Thumbs/wedding-package/dong2.jpg) no-repeat center; background-size: cover; height: 558px}
+
+.wedding-package-09 {background: url(../images/album/Thumbs/wedding-package/dong3-2.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-package-10 {background: url(../images/album/Thumbs/wedding-package/dong3-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-package-11 {background: url(../images/album/Thumbs/wedding-package/dong3-4.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-package-12 {background: url(../images/album/Thumbs/wedding-package/dong3.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.decorate-wedding-01 {background: url(../images/album/Thumbs/decorate-wedding/dong1.jpg) no-repeat center; background-size: cover; height: 558px}
+.decorate-wedding-02 {background: url(../images/album/Thumbs/decorate-wedding/dong1-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.decorate-wedding-03 {background: url(../images/album/Thumbs/decorate-wedding/dong1-3.jpg) no-repeat center; background-size: cover; height: 180px}
+.decorate-wedding-04 {background: url(../images/album/Thumbs/decorate-wedding/dong1-4.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.decorate-wedding-05 {background: url(../images/album/Thumbs/decorate-wedding/dong2-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.decorate-wedding-06 {background: url(../images/album/Thumbs/decorate-wedding/dong2.jpg) no-repeat center; background-size: cover; height: 180px}
+.decorate-wedding-07 {background: url(../images/album/Thumbs/decorate-wedding/dong2-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.decorate-wedding-08 {background: url(../images/album/Thumbs/decorate-wedding/dong2-4.jpg) no-repeat center; background-size: cover; height: 558px}
+
+.decorate-wedding-09 {background: url(../images/album/Thumbs/decorate-wedding/dong3-2.jpg) no-repeat center; background-size: cover; height: 368px}
+.decorate-wedding-10 {background: url(../images/album/Thumbs/decorate-wedding/dong3-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.decorate-wedding-11 {background: url(../images/album/Thumbs/decorate-wedding/dong3-4.jpg) no-repeat center; background-size: cover; height: 368px}
+.decorate-wedding-12 {background: url(../images/album/Thumbs/decorate-wedding/dong3.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.bride-makeup-01 {background: url(../images/album/Thumbs/bride-makeup/dong1.jpg) no-repeat center; background-size: cover; height: 558px}
+.bride-makeup-02 {background: url(../images/album/Thumbs/bride-makeup/dong1-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.bride-makeup-03 {background: url(../images/album/Thumbs/bride-makeup/dong1-3.jpg) no-repeat center; background-size: cover; height: 180px}
+.bride-makeup-04 {background: url(../images/album/Thumbs/bride-makeup/dong1-4.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.bride-makeup-05 {background: url(../images/album/Thumbs/bride-makeup/dong2-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.bride-makeup-06 {background: url(../images/album/Thumbs/bride-makeup/dong2.jpg) no-repeat center; background-size: cover; height: 180px}
+.bride-makeup-07 {background: url(../images/album/Thumbs/bride-makeup/dong2-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.bride-makeup-08 {background: url(../images/album/Thumbs/bride-makeup/dong2-4.jpg) no-repeat center; background-size: cover; height: 558px}
+
+.bride-makeup-09 {background: url(../images/album/Thumbs/bride-makeup/dong3-2.jpg) no-repeat center; background-size: cover; height: 368px}
+.bride-makeup-10 {background: url(../images/album/Thumbs/bride-makeup/dong3-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.bride-makeup-11 {background: url(../images/album/Thumbs/bride-makeup/dong3-4.jpg) no-repeat center; background-size: cover; height: 368px}
+.bride-makeup-12 {background: url(../images/album/Thumbs/bride-makeup/dong3.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.wedding-invitation-01 {background: url(../images/album/Thumbs/wedding-invitation/dong1.jpg) no-repeat center; background-size: cover; height: 558px}
+.wedding-invitation-02 {background: url(../images/album/Thumbs/wedding-invitation/dong1-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-invitation-03 {background: url(../images/album/Thumbs/wedding-invitation/dong1-3.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-invitation-04 {background: url(../images/album/Thumbs/wedding-invitation/dong1-4.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.wedding-invitation-05 {background: url(../images/album/Thumbs/wedding-invitation/dong2-2.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-invitation-06 {background: url(../images/album/Thumbs/wedding-invitation/dong2.jpg) no-repeat center; background-size: cover; height: 180px}
+.wedding-invitation-07 {background: url(../images/album/Thumbs/wedding-invitation/dong2-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-invitation-08 {background: url(../images/album/Thumbs/wedding-invitation/dong2-4.jpg) no-repeat center; background-size: cover; height: 558px}
+
+.wedding-invitation-09 {background: url(../images/album/Thumbs/wedding-invitation/dong3-2.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-invitation-10 {background: url(../images/album/Thumbs/wedding-invitation/dong3-3.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-invitation-11 {background: url(../images/album/Thumbs/wedding-invitation/dong3-4.jpg) no-repeat center; background-size: cover; height: 368px}
+.wedding-invitation-12 {background: url(../images/album/Thumbs/wedding-invitation/dong3.jpg) no-repeat center; background-size: cover; height: 368px}
+
+.photography-01, .photography-02, .photography-03, .photography-04, .photography-05, .photography-06, .photography-07, .photography-08, .photography-09, .photography-10, .photography-11, .photography-12 {transition: 0.4s; transform: scale(0.99); filter: brightness(0.85); cursor: zoom-in}
+.photography-01:hover, .photography-02:hover, .photography-03:hover, .photography-04:hover, .photography-05:hover, .photography-06:hover, .photography-07:hover, .photography-08:hover, .photography-09:hover, .photography-10:hover, .photography-11:hover, .photography-12:hover {filter: brightness(1.1); transform: scale(1.01)}
+
+
+
+.wedding-dress-01, .wedding-dress-02, .wedding-dress-03, .wedding-dress-04, .wedding-dress-05, .wedding-dress-06, .wedding-dress-07, .wedding-dress-08, .wedding-dress-09, .wedding-dress-10, .wedding-dress-11, .wedding-dress-12 {transition: 0.4s; transform: scale(0.99); filter: brightness(0.85); cursor: zoom-in}
+.wedding-dress-01:hover, .wedding-dress-02:hover, .wedding-dress-03:hover, .wedding-dress-04:hover, .wedding-dress-05:hover, .wedding-dress-06:hover, .wedding-dress-07:hover, .wedding-dress-08:hover, .wedding-dress-09:hover, .wedding-dress-10:hover, .wedding-dress-11:hover, .wedding-dress-12:hover {filter: brightness(1.1); transform: scale(1.01)}
+
+
+
+.wedding-package-01, .wedding-package-02, .wedding-package-03, .wedding-package-04, .wedding-package-05, .wedding-package-06, .wedding-package-07, .wedding-package-08, .wedding-package-09, .wedding-package-10, .wedding-package-11, .wedding-package-12 {transition: 0.4s; transform: scale(0.99); filter: brightness(0.85); cursor: zoom-in}
+.wedding-package-01:hover, .wedding-package-02:hover, .wedding-package-03:hover, .wedding-package-04:hover, .wedding-package-05:hover, .wedding-package-06:hover, .wedding-package-07:hover, .wedding-package-08:hover, .wedding-package-09:hover, .wedding-package-10:hover, .wedding-package-11:hover, .wedding-package-12:hover {filter: brightness(1.1); transform: scale(1.01)}
+
+
+
+.decorate-wedding-01, .decorate-wedding-02, .decorate-wedding-03, .decorate-wedding-04, .decorate-wedding-05, .decorate-wedding-06, .decorate-wedding-07, .decorate-wedding-08, .decorate-wedding-09, .decorate-wedding-10, .decorate-wedding-11, .decorate-wedding-12 {transition: 0.4s; transform: scale(0.99); filter: brightness(0.85); cursor: zoom-in}
+.decorate-wedding-01:hover, .decorate-wedding-02:hover, .decorate-wedding-03:hover, .decorate-wedding-04:hover, .decorate-wedding-05:hover, .decorate-wedding-06:hover, .decorate-wedding-07:hover, .decorate-wedding-08:hover, .decorate-wedding-09:hover, .decorate-wedding-10:hover, .decorate-wedding-11:hover, .decorate-wedding-12:hover {filter: brightness(1.1); transform: scale(1.01)}
+
+
+
+.bride-makeup-01, .bride-makeup-02, .bride-makeup-03, .bride-makeup-04, .bride-makeup-05, .bride-makeup-06, .bride-makeup-07, .bride-makeup-08, .bride-makeup-09, .bride-makeup-10, .bride-makeup-11, .bride-makeup-12 {transition: 0.4s; transform: scale(0.99); filter: brightness(0.85); cursor: zoom-in}
+.bride-makeup-01:hover, .bride-makeup-02:hover, .bride-makeup-03:hover, .bride-makeup-04:hover, .bride-makeup-05:hover, .bride-makeup-06:hover, .bride-makeup-07:hover, .bride-makeup-08:hover, .bride-makeup-09:hover, .bride-makeup-10:hover, .bride-makeup-11:hover, .bride-makeup-12:hover {filter: brightness(1.1); transform: scale(1.01)}
+
+
+
+.wedding-invitation-01, .wedding-invitation-02, .wedding-invitation-03, .wedding-invitation-04, .wedding-invitation-05, .wedding-invitation-06, .wedding-invitation-07, .wedding-invitation-08, .wedding-invitation-09, .wedding-invitation-10, .wedding-invitation-11, .wedding-invitation-12 {transition: 0.4s; transform: scale(0.99); filter: brightness(0.85); cursor: zoom-in}
+.wedding-invitation-01:hover, .wedding-invitation-02:hover, .wedding-invitation-03:hover, .wedding-invitation-04:hover, .wedding-invitation-05:hover, .wedding-invitation-06:hover, .wedding-invitation-07:hover, .wedding-invitation-08:hover, .wedding-invitation-09:hover, .wedding-invitation-10:hover, .wedding-invitation-11:hover, .wedding-invitation-12:hover {filter: brightness(1.1); transform: scale(1.01)}
+
+@media (max-width: 992px) {
+.photography-section .container-fluid {padding-left: 15px; padding-right: 15px}
+.photography-section .col-md-7 {padding-right: 20px}
+.anh-nho1 {padding-left: 15px !important; padding-right: 15px !important}
+.anh-nho2 {padding-left: 15px !important; padding-bottom: 15px !important}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
